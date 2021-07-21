@@ -1,0 +1,15 @@
+{
+    "name": "gi-types-scripts",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "generatePackages": "node ./src/buildPackage.js"
+    },
+    "engines": {
+        "node": "v14"
+    },
+    "devDependencies": {
+        "npm-api": "^1.0.1",
+        "semver": "^7.3.5"
+    }
+}
